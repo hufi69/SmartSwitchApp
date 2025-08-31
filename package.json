@@ -1,0 +1,36 @@
+{
+  "name": "smartswitchapp"t-navigation/native": "lates,
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-navigation/bottom-tabs": "^7.3.13",
+    "@react",
+    "@react-navigation/stack": "latest",
+    "expo": "latest",
+    "expo-linear-gradient": "latest",
+    "expo-status-bar": "latest",
+    "lottie-react-native": "latest",
+    "react": "latest",
+    "react-hook-form": "latest",
+    "react-native": "latest",
+    "react-native-chart-kit": "latest",
+    "react-native-gesture-handler": "~2.24.0",
+    "react-native-paper": "latest",
+    "react-native-reanimated": "^3.17.5",
+    "react-native-safe-area-context": "latest",
+    "react-native-screens": "latest",
+    "react-native-vector-icons": "latest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@types/react": "~19.0.10",
+    "typescript": "~5.8.3"
+  },
+  "private": true
+}
