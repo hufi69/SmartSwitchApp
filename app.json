@@ -25,8 +25,28 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#4361EE"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "RECEIVE_BOOT_COMPLETED",
+        "VIBRATE",
+        "POST_NOTIFICATIONS"
+      ]
     },
+    "notification": {
+      "icon": "./assets/icon.png",
+      "color": "#4361EE",
+      "androidMode": "default",
+      "androidCollapsedTitle": "Smart Switch Alert"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#4361EE"
+        }
+      ]
+    ],
     "web": {
       "favicon": "./assets/favicon.png"
     }
